@@ -1,0 +1,15 @@
+{
+    "id": "tang-SHA1",
+    "name": "SHA1",
+    "version": "1.0",
+    "description": "SHA1",
+    "keywords": [
+        "SHA1"
+    ],
+    "dcloudext": {
+        "category": [
+            "JS SDK",
+            "通用 SDK"
+        ]
+    }
+}

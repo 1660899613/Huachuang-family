@@ -1,0 +1,1 @@
+<view class="wrap"><view class="succ-img"><u-image vue-id="d4517e14-1" src="/static/ico/succ-i3.png" width="200rpx" height="176rpx" bind:__l="__l"></u-image></view><view class="desc">您的退款申请已发送</view><view class="info">您的退款申请已发送，请您耐心等待！</view><view data-event-opts="{{[['tap',[['e0',['$event']]]]]}}" class=" btnHome" bindtap="__e">返回首页</view></view>

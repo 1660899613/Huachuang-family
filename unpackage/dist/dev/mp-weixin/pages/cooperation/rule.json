@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "活动规则",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image"
+  }
+}

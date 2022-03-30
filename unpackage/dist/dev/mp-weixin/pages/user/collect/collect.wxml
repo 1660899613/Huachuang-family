@@ -1,0 +1,1 @@
+<view class="severContent"><sever-list vue-id="de8ba468-1" list="{{list}}" loadStatus="{{loadStatus}}" bind:__l="__l"></sever-list><u-overlay vue-id="de8ba468-2" show="{{showMask}}" duration="{{400}}" z-index="{{5}}" opacity="{{0.3}}" bind:__l="__l"></u-overlay></view>

@@ -1,0 +1,1 @@
+<block wx:if="{{infor.articleTitle}}"><view class="wrap"><view class="title">{{infor.articleTitle}}</view><view class="time">{{"发布时间："+infor.createTime}}</view><view class="content"><u-parse vue-id="cb7f2922-1" content="{{infor.articleContent}}" bind:__l="__l"></u-parse></view></view></block>

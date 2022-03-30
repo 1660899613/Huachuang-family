@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "专家导师",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-read-more": "/node-modules/uview-ui/components/u-read-more/u-read-more"
+  }
+}

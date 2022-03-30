@@ -1,0 +1,1 @@
+<view class="share_content"><uni-popup class="vue-ref" vue-id="35ee07d0-1" data-ref="popup" bind:__l="__l" vue-slots="{{['default']}}"><button class="poster" style="{{'background:'+('#ffffff')+';'}}" open-type="share" data-event-opts="{{[['longpress',[['saveImg',['$event']]]]]}}" bindlongpress="__e"><image src="{{code}}"></image></button></uni-popup></view>

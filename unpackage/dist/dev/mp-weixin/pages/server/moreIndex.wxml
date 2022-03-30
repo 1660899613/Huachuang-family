@@ -1,0 +1,1 @@
+<view class="severContent"><sever-list vue-id="3b5258c8-1" list="{{list}}" loadStatus="{{loadStatus}}" bind:__l="__l"></sever-list></view>

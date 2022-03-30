@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "推荐课程",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "sever-list": "/components/server-list/server-list",
+    "sort-class": "/components/common/sort-Class"
+  }
+}

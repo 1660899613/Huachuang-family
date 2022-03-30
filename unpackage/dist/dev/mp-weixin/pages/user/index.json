@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image"
+  }
+}

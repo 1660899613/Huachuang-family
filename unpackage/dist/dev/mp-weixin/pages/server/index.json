@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "服务",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "sever-list": "/components/server-list/server-list",
+    "sort-class": "/components/common/sort-Class"
+  }
+}

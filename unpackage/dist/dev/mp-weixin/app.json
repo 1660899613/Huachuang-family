@@ -1,0 +1,98 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/quick/tutor",
+    "pages/server/index",
+    "pages/server/moreIndex",
+    "pages/study/index",
+    "pages/user/index",
+    "pages/user/setting/setting",
+    "pages/user/about/about",
+    "pages/courseDetails/index",
+    "pages/quick/introduce",
+    "pages/quick/active",
+    "pages/quick/details",
+    "pages/server/scheduling",
+    "pages/server/search",
+    "pages/news/news",
+    "pages/news/details",
+    "pages/pay/order",
+    "pages/pay/reOrder",
+    "pages/pay/payOrder",
+    "pages/pay/succ",
+    "pages/user/collect/collect",
+    "pages/user/scheme/scheme",
+    "pages/user/skChoose/skChoose",
+    "pages/user/skChoose/add",
+    "pages/user/skChoose/repeat",
+    "pages/user/bank/bank",
+    "pages/user/bank/index",
+    "pages/cooperation/cooperation",
+    "pages/cooperation/index",
+    "pages/cooperation/friends",
+    "pages/cooperation/rule",
+    "pages/cooperation/apply",
+    "pages/cooperation/withdrawal/withdrawal",
+    "pages/cooperation/withdrawal/detailed",
+    "pages/cooperation/withdrawal/succ",
+    "pages/refund/refund",
+    "pages/refund/succ",
+    "pages/user/contract/contract",
+    "pages/user/contract/details",
+    "pages/user/siginCode/siginCode",
+    "pages/user/siginCode/offCode"
+  ],
+  "subPackages": [
+    {
+      "root": "pages1",
+      "pages": [
+        "agree/agree",
+        "agree/index",
+        "agree/infor",
+        "web-view/web-view",
+        "web-view/look-web"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#106df7",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/ico/navbara1.png",
+        "selectedIconPath": "static/ico/navbara2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/server/index",
+        "iconPath": "static/ico/navbarb1.png",
+        "selectedIconPath": "static/ico/navbarb2.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/study/index",
+        "iconPath": "static/ico/navbarc1.png",
+        "selectedIconPath": "static/ico/navbarc2.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/ico/navbard1.png",
+        "selectedIconPath": "static/ico/navbard2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

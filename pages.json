@@ -1,0 +1,499 @@
+{
+	"easycom": {
+	        // npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+	        // npm安装方式
+	        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	        // 下载安装方式
+	        // "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"backgroundColor":"#FFFFFF",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"backgroundColor":"#FFFFFF",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/quick/tutor",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "专家导师",
+		        "enablePullDownRefresh": false
+		    }
+
+		},
+		{
+			"path": "pages/server/index",
+			"style": {
+				"navigationBarTitleText": "服务",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/server/moreIndex",
+			"style": {
+				"navigationBarTitleText": "推荐课程",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/study/index",
+			"style": {
+				"navigationBarTitleText": "学习",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/user/index",
+            "style" :
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {"titleNView": false}
+            }
+
+        },
+		{
+		    "path" : "pages/user/setting/setting",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "个人资料",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false}
+		    }
+
+		},
+		{
+		    "path" : "pages/user/about/about",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "关于我们",
+		        "enablePullDownRefresh": false,
+				"app-plus": {"titleNView": false}
+		    }
+
+		}
+        ,{
+            "path" : "pages/courseDetails/index",
+            "style" :
+            {
+                "navigationBarTitleText": "课程简介",
+                "enablePullDownRefresh": false
+            }
+
+        },
+		{
+            "path" : "pages/quick/introduce",
+            "style" :
+            {
+                "navigationBarTitleText": "书院介绍",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/quick/active",
+            "style" :
+            {
+                "navigationBarTitleText": "近期活动",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/quick/details",
+            "style" :
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/server/scheduling",
+            "style" :
+            {
+                "navigationBarTitleText": "课程排期",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/server/search",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/news/details",
+            "style" :
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/pay/order",
+            "style" :
+            {
+                "navigationBarTitleText": "服务单号支付",
+                "enablePullDownRefresh": false
+            }
+
+        }
+		,{
+		    "path" : "pages/pay/reOrder",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "费用支付",
+		        "enablePullDownRefresh": false
+		    }
+
+		}
+        ,{
+            "path" : "pages/pay/payOrder",
+            "style" :
+            {
+                "navigationBarTitleText": "支付订单",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/pay/succ",
+            "style" :
+            {
+                "navigationBarTitleText": "支付成功",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/collect/collect",
+            "style" :
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/scheme/scheme",
+            "style" :
+            {
+                "navigationBarTitleText": "专享方案",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/skChoose/skChoose",
+            "style" :
+            {
+                "navigationBarTitleText": "选择上课时间",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/skChoose/add",
+            "style" :
+            {
+                "navigationBarTitleText": "添加学员信息",
+                "enablePullDownRefresh": false
+            }
+
+        }
+		,{
+		    "path" : "pages/user/skChoose/repeat",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "申请复训",
+		        "enablePullDownRefresh": false
+		    }
+
+		}
+
+        ,{
+            "path" : "pages/user/bank/bank",
+            "style" :
+            {
+                "navigationBarTitleText": "绑定银行卡",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/bank/index",
+            "style" :
+            {
+                "navigationBarTitleText": "绑定银行卡",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/cooperation/cooperation",
+            "style" :
+            {
+                "navigationBarTitleText": "合作",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/cooperation/index",
+            "style" :
+            {
+                "navigationBarTitleText": "传承使者",
+                "enablePullDownRefresh": false,
+				"onReachBottomDistance":100
+            }
+
+        }
+        ,{
+            "path" : "pages/cooperation/friends",
+            "style" :
+            {
+                "navigationBarTitleText": "好友列表",
+                "enablePullDownRefresh": false,
+				"onReachBottomDistance":100
+            }
+
+        }
+        ,{
+            "path" : "pages/cooperation/rule",
+            "style" :
+            {
+                "navigationBarTitleText": "活动规则",
+                "enablePullDownRefresh": false
+            }
+
+        },
+		{
+		    "path" : "pages/cooperation/apply",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "个人合作申请",
+		        "enablePullDownRefresh": false
+		    }
+		
+		}
+        ,{
+            "path" : "pages/cooperation/withdrawal/withdrawal",
+            "style" :
+            {
+                "navigationBarTitleText": "申请提现",
+                "enablePullDownRefresh": false,
+				"onReachBottomDistance":100
+            }
+
+        }
+        ,{
+            "path" : "pages/cooperation/withdrawal/detailed",
+            "style" :
+            {
+                "navigationBarTitleText": "账户明细",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/cooperation/withdrawal/succ",
+            "style" :
+            {
+                "navigationBarTitleText": "申请成功",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/refund/refund",
+            "style" :
+            {
+                "navigationBarTitleText": "退款",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/refund/succ",
+            "style" :
+            {
+                "navigationBarTitleText": "申请成功",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/contract/contract",
+            "style" :
+            {
+                "navigationBarTitleText": "我的合同",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/contract/details",
+            "style" :
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        ,{
+            "path" : "pages/user/siginCode/siginCode",
+            "style" :
+            {
+                "navigationBarTitleText": "核销学习记录",
+                "enablePullDownRefresh": false
+            }
+
+        },
+		{
+		    "path" : "pages/user/siginCode/offCode",
+		    "style" :
+		    {
+		        "navigationBarTitleText": "核销学习记录",
+		        "enablePullDownRefresh": false
+		    }
+
+		}
+    ],
+	"subPackages": [{
+	        "root": "pages1",  //新建的文件夹名
+	        "pages": [
+				{
+					"path" : "agree/agree",
+					"style" :
+					{
+						"navigationBarTitleText": "详情",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path" : "agree/index",
+					"style" :
+					{
+						"navigationBarTitleText": "详情",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path" : "agree/infor",
+					"style" :
+					{
+						"navigationBarTitleText": "详情",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path" : "web-view/web-view",
+					"style" :
+					{
+						"navigationBarTitleText": "详情",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path" : "web-view/look-web",
+					"style" :
+					{
+						"navigationBarTitleText": "合同详情",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+	    }],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#106df7",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/ico/navbara1.png",
+				"selectedIconPath": "static/ico/navbara2.png",
+				"text": "首页"
+
+			},
+			{
+					"pagePath": "pages/server/index",
+					"iconPath": "static/ico/navbarb1.png",
+					"selectedIconPath": "static/ico/navbarb2.png",
+					"text": "服务"
+			},
+			{
+					"pagePath": "pages/study/index",
+					"iconPath": "static/ico/navbarc1.png",
+					"selectedIconPath": "static/ico/navbarc2.png",
+					"text": "学习"
+				},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/ico/navbard1.png",
+				"selectedIconPath": "static/ico/navbard2.png",
+				"text": "我的"
+			}
+		]
+	}
+}

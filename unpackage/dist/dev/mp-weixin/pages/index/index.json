@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#FFFFFF",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "nav-list": "/components/common/nav-list",
+    "begin-list": "/components/common/begin-list",
+    "recommend-list": "/components/common/recommend-list",
+    "index-list": "/components/index-list/index-list"
+  }
+}

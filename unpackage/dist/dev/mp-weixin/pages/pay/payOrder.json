@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "支付订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-count-down": "/node-modules/uview-ui/components/u-count-down/u-count-down",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

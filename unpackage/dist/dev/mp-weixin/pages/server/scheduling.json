@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "课程排期",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "sever-list": "/components/server-list/server-list",
+    "sort-class": "/components/common/sort-Class"
+  }
+}

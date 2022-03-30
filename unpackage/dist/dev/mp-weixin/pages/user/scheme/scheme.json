@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "专享方案",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/node-modules/uview-ui/components/u-tabs/u-tabs",
+    "u-overlay": "/node-modules/uview-ui/components/u-overlay/u-overlay",
+    "scheme-list": "/components/scheme-list/scheme-list"
+  }
+}

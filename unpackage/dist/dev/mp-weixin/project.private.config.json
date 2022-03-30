@@ -1,0 +1,39 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "课程详情",
+          "pathName": "pages/courseDetails/index",
+          "query": "id=100",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/user/index",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "详情 班级排期",
+          "pathName": "pages/courseDetails/index",
+          "query": "id=105",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}

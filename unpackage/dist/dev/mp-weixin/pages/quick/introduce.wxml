@@ -1,0 +1,1 @@
+<block wx:if="{{infor.title}}"><view class="wrap"><view class="title">{{infor.title}}</view><view class="content"><u-parse vue-id="732fe1f2-1" content="{{infor.v_details}}" bind:__l="__l"></u-parse></view></view></block>

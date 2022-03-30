@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.maskBox {
+  width: 650rpx;
+  max-height: 74%;
+  background: #FFFFFF;
+  overflow: scroll;
+}
+.overLay-box {
+  width: 90%;
+  height: 80vh;
+  background-color: #fff;
+  margin-top: 5vh;
+  margin-left: 5%;
+  border-radius: 10rpx;
+}
+.jianjie {
+  padding: 20rpx;
+  font-size: 30rpx;
+  color: #333333;
+}
+.jianjie .courseBrief {
+  margin-top: 20rpx;
+}
+.courseDetails .content {
+  margin-top: 20rpx;
+  padding-bottom: 130rpx;
+}
+.courseDetails .content .wrap {
+  background-color: white;
+  padding: 20rpx;
+}
+.header .hdeader {
+  background-color: #fff;
+  padding: 25rpx;
+  text-align: left;
+}
+.header .hdeader .title {
+  font-size: 34rpx;
+}
+.header .hdeader .title .img-box {
+  font-size: 22rpx;
+  text-align: center;
+  color: #666666;
+}
+.header .hdeader .title .img-box .imgSty {
+  width: 30rpx;
+  height: 27rpx;
+}
+.header .hdeader .desc {
+  font-size: 26rpx;
+  color: #666666;
+  margin: 10rpx auto;
+}
+.header .hdeader .bdSty {
+  font-size: 34rpx;
+  color: #B7945D;
+}
+.header .hdeader .bdSty .text {
+  font-size: 22rpx;
+  color: #666666;
+}
+.wrap {
+  padding-bottom: 120rpx;
+}
+.mlWrap .navli {
+  display: inline-block;
+  margin-right: 20rpx;
+  font-size: 26rpx;
+}
+.mlWrap .mlContent .ul {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mlWrap .mlContent .ul .li {
+  width: 345rpx;
+  margin-top: 20rpx;
+}
+.mlWrap .mlContent .ul .li .video-box {
+  width: 340rpx;
+  height: 260rpx;
+}
+.mlWrap .liActive {
+  background: #106DF7;
+  border-radius: 25rpx;
+  padding: 5rpx 20rpx;
+  color: #fff;
+}
+.tcWrap .ul .li {
+  box-shadow: 0px 0px  10px 5px #eee;
+}
+.tcWrap .ul .li .bm {
+  border-top: 1rpx solid #eee;
+  background-color: white;
+  text-align: center;
+  padding: 20rpx;
+}
+.tcWrap .ul .li .bm .img-box {
+  width: 640rpx;
+  height: 260rpx;
+  margin: 20rpx auto;
+}
+.tcWrap .ul .li .bm .hang {
+  padding: 20rpx 0;
+}
+.tcWrap .ul .li .bm .hang .le-t {
+  margin-right: 20rpx;
+}
+.tcWrap .ul .li .bm .hang .left {
+  text-align: left;
+}
+.tcWrap .ul .li .bm .hang .right {
+  color: #F83C3C;
+}
+.tcWrap .ul .li .bm .hang .tab1 {
+  color: #F83C3C;
+}
+.tcWrap .ul .li .bm .hang .tab2 {
+  color: #F79810;
+}
+.tcWrap .ul .li .bm .hang .tab3 {
+  color: #B7B7B7;
+}
+.tcWrap .ul .li .tp {
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  align-items: flex-start;
+  border-bottom: 1rpx solid #EBEBEB;
+}
+.tcWrap .ul .li .tp .center {
+  margin-left: 20rpx;
+}
+.tcWrap .ul .li .tp .center .time {
+  margin-top: 50rpx;
+}
+

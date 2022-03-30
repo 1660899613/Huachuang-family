@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "服务单号支付",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-number-box": "/node-modules/uview-ui/components/u-number-box/u-number-box"
+  }
+}
